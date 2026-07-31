@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# -------------------------------------------------------------------
+# Project Specific - Large Files, Datasets, Models, and Outputs
+# -------------------------------------------------------------------
+
+# Datasets
+LOL-v2/
+
+# Models and Checkpoints
+checkpoints_mirnet/
+results_mirnet/
+sharpness_model/
+backend/checkpoints_mirnet/
+backend/models/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+
+# Outputs and Uploads
+backend/outputs/
+backend/uploads/
+
+# Large base64 / dataset texts
+backend/dataset_samples_b64.txt
+backend/detail_comparison_b64.txt
+backend/metric_distributions_b64.txt
+backend/training_curves_b64.txt
+*_b64.txt
+
+# Avoid committing arbitrary large images / media
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
